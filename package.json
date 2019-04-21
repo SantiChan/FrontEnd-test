@@ -1,0 +1,26 @@
+{
+  "name": "final-test",
+  "version": "1.0.0",
+  "description": "Testing",
+  "main": "main.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "node": "^11.14.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "node-fetch": "^2.3.0"
+  },
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantiChan/FrontEnd-test/issues"
+  },
+  "homepage": "https://github.com/SantiChan/FrontEnd-test#readme"
+}

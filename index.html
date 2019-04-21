@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>Find users of github!</title>
+</head>
+<body>
+    <div class="app">
+        <div class="Box">
+            <div class="searchTools">
+                <input id="inputName" type="text" placeholder="  Search username...">
+                <button id="btn-search" class="button">Search</button>
+            </div>
+            <div id="error"> <p>Does not exist</p> </div>
+            <div id="info">
+                <div id="userProfile">
+                    <img id="profilePic" alt="git pic">
+                        <div class="userInfo">
+                            <span id="username"></span>
+                            <h2 id="fullname"><h2>
+                            <span id="userBio"></span>
+                        </div>
+                </div>
+                <div id="infoTable">
+                    <div>
+                        <h3 class="underline">Repositories</h3>
+                        <div class="table">
+                            <div id="repoTable">
+
+                            </div>
+                        </div>
+                    <div id="emptyRepos"> <p>No repos in this profile</p></div>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+<script src="scripts/main.js"></script>
+</body>
+</html>
